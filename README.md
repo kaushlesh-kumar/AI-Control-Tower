@@ -57,10 +57,10 @@ The project consists of the following services:
 ### **Environment Variables**
 Create a `.env` file or use the provided `mlflow.env` file to configure environment variables (change the values, do not  use the default ones):
 ```env
-DATABASE_URL=mysql+pymysql://admin:dbmlflow@db:3306/mlflow
-JWT_SECRET=supersecretjwt
+DATABASE_URL=XXXXX
+JWT_SECRET=XXXX
 JWT_ALGORITHM=HS256
-ADMIN_USERNAME=admin@example.com
-ADMIN_PASSWORD=admin123
+ADMIN_USERNAME=XXX
+ADMIN_PASSWORD=XXXX
 DEFAULT_QUOTA_LIMIT=10000
 ACCESS_TOKEN_EXPIRE_MINUTES=30
